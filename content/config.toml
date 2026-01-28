@@ -1,7 +1,7 @@
 [site]
 title = "Quan Zhang (张权)"
 description = "Postdoctoral Fellow at Sun Yat-Sen University."
-favicon = "/SYSU.svg"
+favicon = "/public/SYSU.svg"
 # url = "https://www.zhang74.com"
 last_updated = "Jan 18, 2026"
 
@@ -9,7 +9,7 @@ last_updated = "Jan 18, 2026"
 name = "Quan Zhang (张权)"
 title = "Postdoctoral Fellow"
 institution = "Sun Yat-Sen University"
-avatar = "public/quanzhang.jpg"
+avatar = "/public/quanzhang.jpg"
 
 [social]
 # Contact information (leave blank or delete to hide)
