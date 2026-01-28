@@ -3,7 +3,24 @@ title = "Services"
 description = "Professional services and community involvement."
 
 [[items]]
-title = "Reviewer"
-subtitle = "Journal Name"
-date = "2024"
-content = "Reviewed papers for..."
+title = "Journal Reviewer"
+subtitle = "- IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)International Journal of Computer Vision (IJCV)
+- IEEE Transactions on Image Processing (TIP)
+- IEEE Transactions on Multimedia (TMM)
+ACM Computing Surveys
+Pattern Recognition
+Expert Systems with Applications
+Journal of Visual Communication and Image Representation"
+
+
+[[items]]
+title = "Conference Reviewer"
+subtitle = "IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+AAAI Conference on Artificial Intelligence (AAAI)
+IEEE Conference on Multimedia Expo (ICME)
+International Conference on Pattern Recognition (ICPR)
+Chinese Conference on Pattern Recognition and Computer Vision (PRCV)"
+
+[[items]]
+title = "Committee Member"
+subtitle = "CSIG-BVD,CSIG-Biometrics"
