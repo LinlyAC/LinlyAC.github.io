@@ -1,26 +1,21 @@
 ## Education
 
-**The University of Example**, PhD in Natural Science, *2025 - Present*
-- Research focus: Mathematical Principles of Natural Philosophy
-- Supervisor: Prof. Advisor One and Dr. Advisor Two
+**Sun Yat-Sen University**, PhD in Computer Science & Technology, *2020 - 2024*
+- Dissertation Title: “Decoupling-based Approaches on Person Re-Identification: from Individuals to Groups”
+- Supervised by Prof. Jianhuang Lai.
 
-**The University of Example**, BSc in Natural Science, *2021 - 2025*
-- Graduated with First Class Honours
+**Johns Hopkins University**, Visiting PhD in Electronic Engineering, *2023 - 2024*
+- Supervised by Prof. Vishal M. Patel.
 
-## Experience
+**Sun Yat-Sen University**, MEng in Computer Science & Technology, *2017 - 2020*
+- Supervised by Prof. Jianhuang Lai.
 
-**Example Role**
-Company/Institution
-*2023 - 2024*
-- Description of key responsibilities and achievements.
-- Utilized skills to solve problems.
+**Sun Yat-Sen University**, BEng in Information Security, *2013 - 2017*
+- Supervised by Prof. Jianhuang Lai
+
 
 ## Skills
 
 - **Programming:** Python, C++, MATLAB, LaTeX
 - **Data Analysis:** Pandas, NumPy, SciPy
-- **Languages:** English (Native), French (Fluent)
-
-## Awards & Honors
-
-- **First Prize in Example Competition** - Committee of Example (*2024*)
+- **Languages:** Mandarin (Native), English (Fluent)
