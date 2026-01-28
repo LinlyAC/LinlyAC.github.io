@@ -1,20 +1,21 @@
 [site]
-title = "Jiale Liu"
-description = "PhD student at the University of Example."
-favicon = "/favicon.svg"
-last_updated = "November 18, 2025"
+title = "Quan Zhang (张权)"
+description = "Postdoctoral Fellow at Sun Yat-Sen University."
+favicon = "/SYSU.svg"
+# url = "https://www.zhang74.com"
+last_updated = "Jan 18, 2026"
 
 [author]
-name = "Jiale Liu"
-title = "PhD Student"
-institution = "University of Example"
-avatar = "/bio.jpg"
+name = "Quan Zhang (张权)"
+title = "Postdoctoral Fellow"
+institution = "Sun Yat-Sen University"
+avatar = "/quanzhang.png"
 
 [social]
 # Contact information (leave blank or delete to hide)
 
-email = "john.doe@example.com"
-location = "City, Country"
+email = "zhangq689@mail.sysu.edu.cn"
+location = "Guangzhou, China"
 location_url = "https://maps.google.com"
 location_details = [
   "Room 123, Science Building,",
