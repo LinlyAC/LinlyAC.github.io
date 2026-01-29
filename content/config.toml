@@ -1,7 +1,7 @@
 [site]
 title = "Quan Zhang (张权)"
 description = "Postdoctoral Fellow at Sun Yat-Sen University."
-favicon = "/SYSU.svg"
+favicon = "/sysu-logo.svg"
 # url = "https://www.zhang74.com"
 last_updated = "Jan 18, 2026"
 
@@ -31,7 +31,7 @@ github = "https://github.com/LinlyAC"
 enable_likes = true
 
 # Display all subpages on a single page
-enable_one_page_mode = false
+enable_one_page_mode = true
 
 [[navigation]]
 title = "About"
