@@ -11,7 +11,7 @@
 - Supervised by Prof. Jianhuang Lai.
 
 **Sun Yat-Sen University**, BEng in Information Security, *2013 - 2017*
-- Supervised by Prof. Jianhuang Lai
+- Supervised by Prof. Jianhuang Lai.
 
 
 ## Skills
