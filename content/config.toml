@@ -1,39 +1,39 @@
 [site]
-title = "Jiale Liu"
+title = "Quan Zhang (张权) @ SYSU"
 description = "PhD student at the University of Example."
-favicon = "/favicon.svg"
-last_updated = "November 18, 2025"
+favicon = "/sysu-logo.svg"
+last_updated = "March 18, 2025"
 
 [author]
-name = "Jiale Liu"
-title = "PhD Student"
-institution = "University of Example"
-avatar = "/bio.jpg"
+name = "Quan Zhang (张权)"
+title = "Postdoctoral Fellow"
+institution = "Sun Yat-Sen University"
+avatar = "/quanzhang.jpg"
 
 [social]
 # Contact information (leave blank or delete to hide)
 
-email = "john.doe@example.com"
-location = "City, Country"
+email = "zhangq689@mail.sysu.edu.cn"
+location = "Guangzhou, China"
 location_url = "https://maps.google.com"
 location_details = [
-  "Room 123, Science Building,",
-  "University Avenue, City, Country"
+  "Building 389, South Campus",
+  "Sun Yat-Sen University, Guangzhou, China"
 ]
-google_scholar = "https://scholar.google.com"
-orcid = "https://orcid.org"
-github = "https://github.com"
-linkedin = "https://linkedin.com"
+google_scholar = "https://scholar.google.com/citations?user=Ie43skgAAAAJ&hl=en"
+orcid = "https://orcid.org/0000-0002-2042-2054"
+github = "https://github.com/LinlyAC"
+# linkedin = "https://linkedin.com"
 
 [features]
 # Show a like button on the about page
-enable_likes = true
+enable_likes = false
 
 # Display all subpages on a single page
 enable_one_page_mode = false
 
 [i18n]
-enabled = true
+enabled = false
 locales = ["zh", "en"]
 default_locale = "en"
 # "auto" means the locale will be determined by the browser's language setting, "fixed" means the locale will be fixed to the default locale (but can be switched still, if you want to disable, set "enable=false")
