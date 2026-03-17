@@ -3,8 +3,8 @@ title = "Teaching"
 description = "Courses I have taught or assisted with."
 
 [[items]]
-title = "Example Course"
+title = "Digital Image Processing"
 subtitle = "Teaching Assistant"
-date = "2024"
-content = "Description of the course and responsibilities."
+date = "2020-2022"
+content = "An introduction to the fundamentals of digital image processing, covering image representation, enhancement, filtering, and basic analysis techniques."
 tags = ["Undergraduate", "CS"]
