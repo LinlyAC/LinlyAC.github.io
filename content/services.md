@@ -13,6 +13,7 @@
 ## Conference Reviewer
 
 - IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+- Conference on Neural Information Processing Systems (NeurIPS)
 - European Conference on Computer Vision (ECCV)
 - AAAI Conference on Artificial Intelligence (AAAI)
 - IEEE Conference on Multimedia Expo (ICME)
