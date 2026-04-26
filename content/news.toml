@@ -1,4 +1,8 @@
 [[news]]
+date = "2026-04"
+content = "One paper has been accepted by ESWA."
+
+[[news]]
 date = "2026-03"
 content = "One paper has been accepted by ICME 2026."
 
@@ -6,3 +10,7 @@ content = "One paper has been accepted by ICME 2026."
 [[news]]
 date = "2026-03"
 content = "Two papers have been accepted by CVPR 2026 (main conference)."
+
+[[news]]
+date = "2025-08"
+content = "One paper has been accepted by IEEE TIP."
