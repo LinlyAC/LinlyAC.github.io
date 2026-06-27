@@ -1,6 +1,10 @@
 [[news]]
 date = "2026-05"
+<<<<<<< Updated upstream
 content = "One paper has been accepted by ICME 2026 (spotlight)."
+=======
+content = "One paper has been accepted by ICME 2026 (Spotlight)."
+>>>>>>> Stashed changes
 
 [[news]]
 date = "2026-04"
