@@ -1,4 +1,4 @@
 type = "publication"
 title = "Publications"
-description = "A selected collection of my research work. The complete list is available on Google Scholar."
+description = "A selected collection of my research work. The complete list is available on Google Scholar. (* indicates corresponding author.)"
 source = "publications.bib"
