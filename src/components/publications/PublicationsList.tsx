@@ -235,7 +235,7 @@ export default function PublicationsList({ config, publications, embedded = fals
                                     </p>
 
                                     {pub.description && (
-                                        <p className="text-sm text-neutral-600 dark:text-neutral-500 mb-4 line-clamp-3">
+                                        <p className="text-sm text-red-600 dark:text-red-400 mb-4 line-clamp-3">
                                             {pub.description}
                                         </p>
                                     )}
