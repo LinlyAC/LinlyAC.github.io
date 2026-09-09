@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## v1.3.3 on May 13, 2026
+- Fixed disabled i18n mode so browser language and stored locale preferences cannot override the default locale.
+- Added inline formatting for BibTeX publication titles, including `\textit`, `\emph`, `\textbf`, `\textsc`, superscript, and subscript commands.
+
+## v1.3.2 on Mar 19, 2026
+- Added Markdown rendering for card items.
+
 ## v1.3.1 on Feb 24, 2026
 - Fixed SSR/client mismatch from font stylesheet toggling. Updated font settings to be deterministic.
 
