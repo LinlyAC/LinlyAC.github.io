@@ -3,25 +3,37 @@ title = "Awards"
 description = "Honors and awards I have received."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
+title = "First Prize of XAIR Science and Technology Progress Award, Guangdong Province"
+subtitle = "Guangdong Association of Artificial Intelligence Industry"
 date = "2025"
-content = "Description of the award."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
+title = "First Place, Person Re-identification Challenge"
+subtitle = "Chinese Conference on Pattern Recognition and Computer Vision"
+date = "2025"
+
+[[items]]
+title = "Outstanding Doctoral Dissertation"
+subtitle = "Sun Yat-Sen University"
+date = "2025"
+
+[[items]]
+title = "Academic Star"
+subtitle = "Sun Yat-Sen University"
 date = "2024"
-content = "Description of the award."
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
-date = "2023"
-content = "Description of the award."
+title = "Best Paper Candidate"
+subtitle = "IEEE International Conference on Multimedia and Expo"
+date = "2024"
 
 [[items]]
-title = "Example Award"
-subtitle = "Organization"
+title = "Best Student Paper"
+subtitle = "Chinese Conference on Biometric Recognition"
 date = "2022"
-content = "Description of the award."
+
+[[items]]
+title = "Chinese National Scholarship"
+subtitle = "Ministry of Education, China"
+date = "2022"
+content = ""
