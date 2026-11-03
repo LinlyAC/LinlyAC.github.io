@@ -38,11 +38,33 @@ export default function About({ content, title }: AboutProps) {
                                 className="text-accent font-medium transition-all duration-200 rounded hover:bg-accent/10 hover:shadow-sm"
                             />
                         ),
-                        blockquote: ({ children }) => (
-                            <blockquote className="border-l-4 border-accent/50 pl-4 italic my-4 text-neutral-600 dark:text-neutral-500">
-                                {children}
-                            </blockquote>
-                        ),
+                        blockquote: ({ children, node }) => {
+                            const isRecruitment = node?.children.some(child =>
+                                child.type === 'element' && child.tagName === 'h3' &&
+                                child.children.some(text =>
+                                    text.type === 'text' && text.value === 'Open positions & collaboration'
+                                )
+                            );
+
+                            if (isRecruitment) {
+                                return (
+                                    <aside
+                                        aria-label="Open positions & collaboration"
+                                        className="my-6 rounded-lg border border-red-200 border-l-[3px] border-l-red-700 bg-red-50/80 px-5 py-5 dark:border-red-900/60 dark:border-l-red-400 dark:bg-red-950/25
+                                            [&_h3]:mt-0 [&_h3]:mb-2 [&_h3]:font-sans [&_h3]:text-lg [&_h3]:font-medium [&_h3]:text-red-700 dark:[&_h3]:text-red-400
+                                            [&_p]:mb-3 [&_p:last-child]:mb-0 [&_a]:text-red-700 dark:[&_a]:text-red-400 [&_a:hover]:bg-transparent [&_a:hover]:shadow-none [&_a:hover]:underline"
+                                    >
+                                        {children}
+                                    </aside>
+                                );
+                            }
+
+                            return (
+                                <blockquote className="border-l-4 border-accent/50 pl-4 italic my-4 text-neutral-600 dark:text-neutral-500">
+                                    {children}
+                                </blockquote>
+                            );
+                        },
                         strong: ({ children }) => <strong className="font-semibold text-primary">{children}</strong>,
                         em: ({ children }) => <em className="italic text-red-600 dark:text-red-400">{children}</em>,
                     }}
