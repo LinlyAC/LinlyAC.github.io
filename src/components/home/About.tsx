@@ -50,9 +50,9 @@ export default function About({ content, title }: AboutProps) {
                                 return (
                                     <aside
                                         aria-label="Open positions & collaboration"
-                                        className="my-6 rounded-lg border border-red-200 border-l-[3px] border-l-red-700 bg-red-50/80 px-5 py-5 dark:border-red-900/60 dark:border-l-red-400 dark:bg-red-950/25
-                                            [&_h3]:mt-0 [&_h3]:mb-2 [&_h3]:font-sans [&_h3]:text-lg [&_h3]:font-medium [&_h3]:text-red-700 dark:[&_h3]:text-red-400
-                                            [&_p]:mb-3 [&_p:last-child]:mb-0 [&_a]:text-red-700 dark:[&_a]:text-red-400 [&_a:hover]:bg-transparent [&_a:hover]:shadow-none [&_a:hover]:underline"
+                                        className="my-6 rounded-lg border border-highlight/25 border-l-[3px] border-l-highlight bg-highlight/5 px-5 py-5 dark:bg-highlight/10
+                                            [&_h3]:mt-0 [&_h3]:mb-2 [&_h3]:font-sans [&_h3]:text-lg [&_h3]:font-medium [&_h3]:text-highlight
+                                            [&_p]:mb-3 [&_p:last-child]:mb-0 [&_a]:text-highlight [&_a:hover]:bg-transparent [&_a:hover]:shadow-none [&_a:hover]:underline"
                                     >
                                         {children}
                                     </aside>
@@ -66,7 +66,7 @@ export default function About({ content, title }: AboutProps) {
                             );
                         },
                         strong: ({ children }) => <strong className="font-semibold text-primary">{children}</strong>,
-                        em: ({ children }) => <em className="italic text-red-600 dark:text-red-400">{children}</em>,
+                        em: ({ children }) => <em className="italic text-highlight">{children}</em>,
                     }}
                 >
                     {content}

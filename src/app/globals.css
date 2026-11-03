@@ -25,6 +25,7 @@
   --accent: #d4a562;
   --accent-light: #e4b976;
   --accent-dark: #b8914d;
+  --highlight: #b33d48;
   
   /* Neutral colors */
   --neutral-50: #f8fafc;
@@ -60,6 +61,7 @@
   --color-accent: var(--accent);
   --color-accent-light: var(--accent-light);
   --color-accent-dark: var(--accent-dark);
+  --color-highlight: var(--highlight);
   
   /* Neutral palette */
   --color-neutral-50: var(--neutral-50);
@@ -154,6 +156,7 @@ html[data-locale^="zh"] {
   --accent: #e4b976;
   --accent-light: #f0c674;
   --accent-dark: #d4a562;
+  --highlight: #f09aa3;
   
   /* Dark mode glass effect */
   --glass-bg: rgba(15, 23, 42, 0.8);
