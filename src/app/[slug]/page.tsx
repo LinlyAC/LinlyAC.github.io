@@ -27,6 +27,7 @@ function loadDynamicPageData(slug: string, locale?: string): DynamicPageLocaleDa
       type: 'publication',
       config: pubConfig,
       publications: parseBibTeX(bibtex, locale),
+      googleScholarUrl: getConfig(locale).social.google_scholar,
     };
   }
 

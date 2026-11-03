@@ -20,10 +20,11 @@ import PublicationImagePreview from './PublicationImagePreview';
 interface PublicationsListProps {
     config: PublicationPageConfig;
     publications: Publication[];
+    googleScholarUrl?: string;
     embedded?: boolean;
 }
 
-export default function PublicationsList({ config, publications, embedded = false }: PublicationsListProps) {
+export default function PublicationsList({ config, publications, googleScholarUrl, embedded = false }: PublicationsListProps) {
     const messages = useMessages();
     const [searchQuery, setSearchQuery] = useState('');
     const [selectedYear, setSelectedYear] = useState<number | 'all'>('all');
@@ -69,7 +70,19 @@ export default function PublicationsList({ config, publications, embedded = fals
                 <h1 className={`${embedded ? "text-2xl" : "text-4xl"} font-serif font-bold text-primary mb-4`}>{config.title}</h1>
                 {config.description && (
                     <p className={`${embedded ? "text-base" : "text-lg"} text-neutral-600 dark:text-neutral-500 max-w-2xl`}>
-                        {config.description}
+                        {config.description.split(/(Google Scholar)/).map((text, index) =>
+                            text === 'Google Scholar' && googleScholarUrl ? (
+                                <a
+                                    key={index}
+                                    href={googleScholarUrl}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="whitespace-nowrap font-medium text-accent-dark underline decoration-1 underline-offset-4 hover:text-accent focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+                                >
+                                    {text}
+                                </a>
+                            ) : text
+                        )}
                     </p>
                 )}
             </div>

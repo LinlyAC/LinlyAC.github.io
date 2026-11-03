@@ -103,6 +103,7 @@ export default function HomePageClient({ dataByLocale, defaultLocale }: HomePage
                 <PublicationsList
                   config={page.config}
                   publications={page.publications}
+                  googleScholarUrl={data.social.google_scholar}
                   embedded={true}
                 />
               )}
