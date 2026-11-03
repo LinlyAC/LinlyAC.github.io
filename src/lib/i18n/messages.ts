@@ -41,6 +41,8 @@ export interface LocaleMessages {
     abstract: string;
     bibtex: string;
     code: string;
+    enlargePreview: string;
+    closePreview: string;
   };
   footer: {
     lastUpdated: string;
@@ -91,6 +93,8 @@ const en: LocaleMessages = {
     abstract: 'Abstract',
     bibtex: 'BibTeX',
     code: 'Code',
+    enlargePreview: 'Enlarge preview',
+    closePreview: 'Close image preview',
   },
   footer: {
     lastUpdated: 'Last updated',
@@ -141,6 +145,8 @@ const zh: LocaleMessages = {
     abstract: '摘要',
     bibtex: 'BibTeX',
     code: '代码',
+    enlargePreview: '放大预览图',
+    closePreview: '关闭图片预览',
   },
   footer: {
     lastUpdated: '最近更新',
