@@ -22,5 +22,7 @@
 
 ## Committee Member
 
+- IEEE Biometrics Council
 - CSIG-BVD
-- CSIG-Biometrics
+- CSIG-TCBR
+- CAAI-PR
