@@ -2,6 +2,6 @@ Quan Zhang is currently a  postdoctoral fellow at Sun Yat-sen University. Prior 
 
 > ### Open positions & collaboration
 >
-> I am currently looking for students (Ph.D./M.S./B.S.) and research assistants who are curious, amiable, tenacious, and highly self-motivated. Please feel free to contact me if you are interested in working with me!
+> I am currently looking for students (Ph.D./M.S./B.S.) and research assistants who are **self-motivated** and **passionate about research**. Please feel free to contact me if you are interested in working with me!
 >
 > [Get in touch ↗](mailto:zhangq689@mail.sysu.edu.cn)
